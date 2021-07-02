@@ -16,6 +16,24 @@
       "message": "just use \"if\" maybe ?",
       "revId": "0df3d5dbc89e01b819c6da356f82083d831e41af",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b84cea34_a8134393",
+        "filename": "recovery/root/system/bin/init.device.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 401
+      },
+      "writtenOn": "2021-07-02T06:10:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc3873ac_4c48b05b",
+      "revId": "0df3d5dbc89e01b819c6da356f82083d831e41af",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
