@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3151364_98ca25d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35
+      },
+      "writtenOn": "2021-07-02T05:09:22Z",
+      "side": 1,
+      "message": "We should keep those oppo dynamic partitions, so we can access them in stock rom",
+      "revId": "9122191043cd0cb7c7fb27d1ea1454db4d8d94cd",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
