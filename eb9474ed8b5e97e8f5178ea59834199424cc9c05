@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4bfe9422_7ee516e4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 535
+      },
+      "writtenOn": "2021-09-21T08:42:29Z",
+      "side": 1,
+      "message": "This commit fixes haptics on twrp.",
+      "revId": "eb9474ed8b5e97e8f5178ea59834199424cc9c05",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
+}
