@@ -2,7 +2,7 @@ on fs
     install_keyring
     mkdir /mnt/vendor/persist 0777 system system
     setprop crypto.ready 1
-    write /sys/devices/platform/odm/odm:oppo_charger/power_supply/usb/otg_switch 1
+    write /sys/class/power_supply/usb/otg_switch 1
 
 service keystore_auth /system/bin/keystore_auth
     oneshot
@@ -45,14 +45,14 @@ service gatekeeper-1-0 /system/bin/android.hardware.gatekeeper@1.0-service
     disabled
     seclabel u:r:recovery:s0
 
-service vendor.vibrator-1-0 /system/bin/android.hardware.vibrator@1.0-service
-    class hal
+service init-device-sh /system/bin/init.device.sh
     user root
-    group root input
+    group root
+    disabled
     seclabel u:r:recovery:s0
 
 on boot
-    start vendor.vibrator-1-0
+    start init-device-sh
 
 on property:hwservicemanager.ready=true
     start hal_cryptoeng_oppo
